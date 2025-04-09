@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import pickle
-
+ 
 # Load model
 model = tf.keras.models.load_model("story_generator.h5")
 
