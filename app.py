@@ -6,7 +6,6 @@ import pickle
  
 # Load model
 model = tf.keras.models.load_model("story_generator.h5")
-
 # Load tokenizer
 with open("tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
